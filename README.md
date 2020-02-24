@@ -1,2 +1,2 @@
 # Instagram Giveaway Website
-demo: hooriahic.github.io/giveaway
+demo: (View live)[https://hooriahic.github.io/Giveaway/]
