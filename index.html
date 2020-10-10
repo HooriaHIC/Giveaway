@@ -41,40 +41,11 @@
 
     <div id="page" class="site">
         <header>
-
-            <nav class="navbar navbar-expand-lg fixed-top navbar-light bg-white" id="nav">
-                <a class="nav-brand nav-link" style=" font-weight: bold;color: black !important;"
-                    href="https://xxxtimes.club"><img src="https://app-sorteos.com/img/logo2.png"
-                        style="height: 40px;"></a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse"
-                    data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
-                    aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarSupportedContent">
-                    <ul class="navbar-nav ml-auto align-items-center">
-                        <li class="nav-item mr-4">
-                            <a href="/how-to-create-instagram-giveawys-and-contest" class="nav-link">
-                                <strong>Help</strong>
-                            </a>
-                        </li>
-                        <li class="nav-item mr-4">
-                            <a href="/support" class="nav-link">
-                                <strong>Contact</strong>
-                            </a>
-                        </li>
-                        <!--li class="nav-item">
-							<a href="https://xxxtimes.club" class="btn btn-md btn-primary my-2 my-sm-0 btn-success btn-bold">
-							<i class="fas fa-plus mr-2"></i>Create Giveaway </a>
-						</li>
-						</li -->
-                    </ul>
-                </div>
-            </nav>
             <canvas id="canvas"></canvas>
 
             <div class="jumbotron gradient bg-white rounded-0 text-white text-center w-100"
-                style="width: 99vw !important;         background-image: -webkit-linear-gradient(0deg,#ED2BA2 0%,#8a2091 100%);"
+                style="width: 99vw !important;        background: linear-gradient(45deg, rgba(255,238,0,1) 0%, rgba(253,164,29,1) 50%, rgba(252,69,69,1) 100%);
+"
                 id="jumbotron">
                 <div class="container pb-1 pt-1">
                     <h1 class="mt-5" style="font-size: 43px;"><strong>Free <span>Instagram</span> Giveaways</strong>
@@ -92,64 +63,15 @@
                                     <input placeholder="Enter an Instagram Photo Url" id="main_input">
                                     <button onclick="changeNote()" type="submit">Start</button>
                                 </div>
-                                <p class="form-help">Example: https://www.instagram.com/p/BsQXNLSFY8m/</p>
+                                <p class="form-help">Example: https://www.instagram.com/p/CGKeQrgpHa7/</p>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="row">
-                    <div class="col-md-2"></div>
-                    <div class="col mt-5 pt-5">
-                        <h1 class="text-center" style="font-weight: 900;font-size: 45px;">
-                            Instagram Giveaways
-                        </h1>
-                        <p class="mt-5" style="width: 60vmin; text-align: center;color: rgba(0,0,0,0.5); margin:auto;">
-                            Checkout the latest <b style="color: rgba(0,0,0,0.9);">Instagram Giveaways</b> certified for
-                            our app. Click to check the results.
-                        </p>
-                    </div>
-                    <div class="col-md-2"></div>
-                </div>
-                <p class="mt-5 mb-5 text-center" style="font-size: 15px;color: rgba(0,0,0,0.7)">
-                    Not available
-                </p>
-                <div class="row mt-5">
-                    <div class="col-md-2"></div>
-                    <div class="col mt-5 pt-5 p-4 mb-5" id="about-sec" style="box-shadow: 0 0 40px rgba(0,0,0,0.1); border-radius: 10px;font-family: 'Roboto', sans-serif;
-">
-                        <h1 class="font-weight-bold">
-                            About App Sorteos
-                        </h1>
-                        <p class="mt-5" style="font-size: 18px;">
-                            <b>App-Sorteos.com</b> it's an online and free tool to create <b>Instagram Giveaways,
-                                Sweepstakes, Contests and Promotions,</b> allowing you to pick a random comment from
-                            your Instagram photo URL.
-                        </p>
-                        <p class="mt-2" style="font-size: 18px;">
-                            Just enter your Instagram Photo URL, and we will find all the comments for you. After that,
-                            you need to select the number of winners, and press the START button.
-                        </p>
-                        <p class="mt-2" style="font-size: 18px;">
-                            We DO NOT need access to your account credentials, just use our <a href="#">Instagram
-                                Giveaways Free App</a> with the post URL.
-                        </p>
-                        <p class="mt-2" style="font-size: 18px;">
-                            Now, you can create free <a href="">Youtube Giveaways, Sweepstakes, Contests and
-                                Promotions</a> with your videos, by choosing a random comment.
-                        </p>
-                        <p class="mt-2" style="font-size: 18px;">
-                            We CANNOT read comments from PRIVATE POST, yet.
-                        </p>
-                    </div>
-                    <div class="col-md-2"></div>
-                </div>
-
             </div>
-            <div class="container part_cont" id="part_cont" style="display: none;">
-                <div class="mt-1 mb-4">
-                    <img src="https://app-sorteos.com/img/logo2.png" id="logo_main">
-                </div>
-                <div class="hidden" id="setup">
+            <div class="container part_cont pt-5" id="part_cont" style="display: none;">
+                
+                <div class="hidden pt-5" id="setup">
                     <button type="button" id="changenote" onclick="shuffle()">Start</button>
 
                     <div id="participant-area">
@@ -199,7 +121,7 @@
                                                     -webkit-box-shadow: 0px 9px 0px #bbbbc1;
                                                     -moz-box-shadow: 0px 9px 0px #bbbbc1;
                                                     box-shadow: 0px 9px 0px #bbbbc1;">
-                            Run a
+                            Run a Test
                         </button>
                         <button type="button" id="shuffle-btn" onclick="main()">Start</button>
                         <span class="space"></span>
@@ -262,15 +184,11 @@
             </div>
     </div>
     <script type='text/javascript'
-        src='https://giveaway.ozarion.com/wp-includes/js/jquery/jquery.js?ver=1.12.4-wp'></script>
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.5.1/jquery.js'></script>
     <script type='text/javascript'
-        src='https://giveaway.ozarion.com/wp-includes/js/jquery/jquery-migrate.min.js?ver=1.4.1'></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
-        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
-        crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
-        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
-        crossorigin="anonymous"></script>
+        src='https://cdnjs.cloudflare.com/ajax/libs/jquery-migrate/3.3.1/jquery-migrate.js'></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/2.5.3/umd/popper.min.js" integrity="sha512-53CQcu9ciJDlqhK7UD8dZZ+TF2PFGZrOngEYM/8qucuQba+a+BXOIRsp9PoMNJI3ZeLMVNIxIfZLbG/CdHI5PA==" crossorigin="anonymous"></script>
+   <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/2.4.1/lodash.js"></script>
     <script src="script.js"></script>
 
