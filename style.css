@@ -210,7 +210,8 @@ p.form-help {
     margin: auto;
     width: 60vmin;
     overflow-x: hidden;
-    background-image: -webkit-linear-gradient(right, #ED2BA2 0%, #8a2091 100%);
+    background: linear-gradient(45deg, rgba(255,238,0,1) 0%, rgba(253,164,29,1) 50%, rgba(252,69,69,1) 100%);
+
 }
 
 #participant-area #total_part {
@@ -338,8 +339,8 @@ p.form-help {
     text-decoration: none;
     margin: 0 auto;
     border-radius: 0 5px 5px 0;
-    border: solid 1px #b44cb9;
-    background: #ed2ba2;
+    border: solid 1px #fc4545;
+    background: #fda41d;
     height: 57px;
     letter-spacing: 1px;
     text-align: center;
@@ -348,9 +349,9 @@ p.form-help {
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-    -webkit-box-shadow: 0px 3px 0px #b44cb9;
-    -moz-box-shadow: 0px 3px 0px #b44cb9;
-    box-shadow: 0px 3px 0px #b44cb9;
+    -webkit-box-shadow: 0px 3px 0px #fc4545;
+    -moz-box-shadow: 0px 3px 0px #fc4545;
+    box-shadow: 0px 3px 0px #fc4545;
 }
 
 .total_part {
@@ -464,7 +465,7 @@ canvas {
 }
 
 #jumbotron span {
-    color: #9b2294;
+    color: #fda41d;
     padding-left: 7px;
     height: 10px;
     padding-top: 2px;
