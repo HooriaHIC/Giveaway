@@ -190,7 +190,7 @@ function main() {
     var randomNum = Math.floor(Math.random() * (usernames.length));
     var randomTimerNum = Math.floor(Math.random() * 30) + 1;
 
-    var fiveMinutes = 5 * randomTimerNum,
+    var fiveMinutes = 1 * randomTimerNum,
         display = document.querySelector('#time');
     startTimer(fiveMinutes, display);
     document.getElementById("form").setAttribute("class", "hidden");
