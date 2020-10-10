@@ -4,11 +4,12 @@
 @import url("https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css");
 
 body {
-    font-family: 'Poppins', sans-serif;
-}
-
-body {
     background: #f5fafd;
+	font-family: 'Poppins', sans-serif;
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 form#acf-form {
@@ -76,13 +77,6 @@ p.form-help {
     border: 1px solid rgba(0, 0, 0, .125);
     border-radius: .25rem;
     box-shadow: -1px 1px 20px 2px #8080807a;
-}
-
-body {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
 }
 
 .part_cont {
@@ -216,7 +210,8 @@ body {
     margin: auto;
     width: 60vmin;
     overflow-x: hidden;
-    background-image: -webkit-linear-gradient(right, #ED2BA2 0%, #8a2091 100%);
+    background: linear-gradient(45deg, rgba(255,238,0,1) 0%, rgba(253,164,29,1) 50%, rgba(252,69,69,1) 100%);
+
 }
 
 #participant-area #total_part {
@@ -344,8 +339,8 @@ body {
     text-decoration: none;
     margin: 0 auto;
     border-radius: 0 5px 5px 0;
-    border: solid 1px #b44cb9;
-    background: #ed2ba2;
+    border: solid 1px #fc4545;
+    background: #fda41d;
     height: 57px;
     letter-spacing: 1px;
     text-align: center;
@@ -354,9 +349,9 @@ body {
     -webkit-transition: all 0.1s;
     -moz-transition: all 0.1s;
     transition: all 0.1s;
-    -webkit-box-shadow: 0px 3px 0px #b44cb9;
-    -moz-box-shadow: 0px 3px 0px #b44cb9;
-    box-shadow: 0px 3px 0px #b44cb9;
+    -webkit-box-shadow: 0px 3px 0px #fc4545;
+    -moz-box-shadow: 0px 3px 0px #fc4545;
+    box-shadow: 0px 3px 0px #fc4545;
 }
 
 .total_part {
@@ -470,7 +465,7 @@ canvas {
 }
 
 #jumbotron span {
-    color: #9b2294;
+    color: #fda41d;
     padding-left: 7px;
     height: 10px;
     padding-top: 2px;
